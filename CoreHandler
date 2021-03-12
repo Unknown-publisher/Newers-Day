@@ -12,7 +12,6 @@ local Button = Library:NewButton("Tab1", "Crash Bandicoot", function(Button)
 end)
 
 local Button = Library:NewButton("Tab1", "Destroy Game", function(Button)
-    game:GetService("ReplicatedStorage").FullUNI:FireServer()
     for i, v in pairs(game:GetDescendants()) do
         local ohInstance1 = v
         local ohNumber2 = 1
