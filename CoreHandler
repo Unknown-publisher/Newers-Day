@@ -23,7 +23,7 @@ local Button = Library:NewButton("Tab1", "Destroy Map", function(Button)
     for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
         local ohInstance1 = v
         local ohNumber2 = 1
-        game:GetService("ReplicatedStorage").Transparency:FireServer(ohInstance1, ohNumber2)
+        game:GetService("ReplicatedStorage").EstoEsTransparencia:FireServer(ohInstance1, ohNumber2)
     end
 end)
 
